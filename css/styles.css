@@ -14,8 +14,106 @@ Dark green: #28b485
 }
 
 body {
-    font-family: "Lato" sans-serif;
+    font-family: "Lato", sans-serif;
     color: #777;
     font-size: 16px;
     padding: 30px;
+    line-height: 1.7;
+}
+
+.header {
+    height: 95dvh;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../images/hero.jpg");
+    background-position: top;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 80dvh, 0 100%);
+}
+
+.logo-box {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.logo {
+    height: 35px;
+}
+
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.primary-heading {
+    margin-bottom: 60px;
+}
+
+.primary-heading-main {
+    font-size: 60px;
+    letter-spacing: 30px;
+    display: block;
+    font-weight: 700;
+}
+
+.primary-heading-sub {
+    font-size: 20px;
+    letter-spacing: 17.4px;
+    display: block;
+    font-weight: 900;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    transition: all .2s;
+    position: relative;
+}
+
+.btn:hover {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    transform: translateY(-2px);
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.8);
+    opacity: 0;
+}
+
+.btn-white {
+    color: #777;
+    background-color: #fff;
 }
