@@ -65,6 +65,7 @@ body {
     letter-spacing: 30px;
     display: block;
     font-weight: 700;
+    animation: moveInRight 1s;
 }
 
 .primary-heading--sub {
@@ -72,6 +73,7 @@ body {
     letter-spacing: 1.75rem;
     display: block;
     font-weight: 900;
+    animation: moveInLeft 1s;
 }
 
 .btn:link,
@@ -122,4 +124,54 @@ body {
 .btn--white {
     color: #777;
     background-color: #fff;
+}
+
+.btn--animated {
+    animation: moveInBottom .6s;
+    animation-fill-mode: backwards;
+}
+
+/* Animations */
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
