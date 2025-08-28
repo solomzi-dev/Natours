@@ -24,60 +24,7 @@
 
 
 
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    padding: 1.5rem 4rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 1.8rem;
-    border-radius: 10rem;
-    border: none;
-    transition: all .2s;
-    position: relative;
-}
 
-.btn:hover {
-    box-shadow: 0 2rem 2rem rgba(0, 0, 0, .2);
-    transform: translateY(-.3rem);
-}
-
-.btn:active {
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .2);
-    transform: translateY(-.2rem);
-}
-
-.btn::after { 
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 10rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -10;
-    transition: all .4s;
-}
-
-.btn--white::after {
-    background-color: $color-white;
-}
-
-.btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.8);
-    opacity: 0;
-}
-
-.btn--white {
-    color: $color-grey-dark;
-    background-color: $color-white;
-}
-
-.btn--animated {
-    animation: moveInBottom .6s;
-    animation-fill-mode: backwards;
-}
 
 /* Animations */
 @keyframes moveInBottom {
