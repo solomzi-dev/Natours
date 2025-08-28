@@ -28,7 +28,7 @@ body {
 
 .header {
   height: 95dvh;
-  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.8), rgba(119, 119, 119, 0.8)), url("../images/hero.jpg");
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url("../images/hero.jpg");
   background-position: top;
   background-size: cover;
   color: #fff;
