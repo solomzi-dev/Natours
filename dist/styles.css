@@ -26,6 +26,26 @@ body {
   box-sizing: inherit;
 }
 
+.primary-heading {
+  margin-bottom: 6rem;
+}
+
+.primary-heading--main {
+  font-size: 6rem;
+  letter-spacing: 30px;
+  display: block;
+  font-weight: 700;
+  animation: moveInRight 1s;
+}
+
+.primary-heading--sub {
+  font-size: 2rem;
+  letter-spacing: 1.75rem;
+  display: block;
+  font-weight: 900;
+  animation: moveInLeft 1s;
+}
+
 .header {
   height: 95dvh;
   background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url("../images/hero.jpg");
@@ -50,26 +70,6 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   text-transform: uppercase;
-}
-
-.primary-heading {
-  margin-bottom: 6rem;
-}
-
-.primary-heading--main {
-  font-size: 6rem;
-  letter-spacing: 30px;
-  display: block;
-  font-weight: 700;
-  animation: moveInRight 1s;
-}
-
-.primary-heading--sub {
-  font-size: 2rem;
-  letter-spacing: 1.75rem;
-  display: block;
-  font-weight: 900;
-  animation: moveInLeft 1s;
 }
 
 .btn:link,
