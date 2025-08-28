@@ -1,0 +1,38 @@
+@use "../abstracts/variables" as *;
+
+.composition {
+    position: relative;
+    &__img {
+        width: 55%;
+        outline-offset: 10px;
+        border-radius: 10px;
+        position: absolute;        
+        transition: all .3s;
+
+        &:hover {
+            outline: 10px solid $color-primary;
+            transform: scale(1.05);
+            z-index: 10;
+        }
+    }
+
+    .pic-1 {
+        top: -3rem;
+        left: 0;
+    }
+
+    .pic-2 {
+        top: 0;
+        right: 4rem;
+    }
+
+    .pic-3 {
+        top: 10rem;
+        left: 5rem;
+    }
+
+    &:hover img:not(:hover) {
+        transform: scale(.8);
+        z-index: -10;
+    }
+}
