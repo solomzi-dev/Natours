@@ -2,20 +2,20 @@
 
 .primary-heading {
     margin-bottom: 6rem;
-}
 
-.primary-heading--main {
-    font-size: 6rem;
-    letter-spacing: 30px;
-    display: block;
-    font-weight: 700;
-    animation: moveInRight 1s;
-}
+    &--main {
+        font-size: 6rem;
+        letter-spacing: 30px;
+        display: block;
+        font-weight: 700;
+        animation: moveInRight 1s;
+    }
 
-.primary-heading--sub {
-    font-size: 2rem;
-    letter-spacing: 1.75rem;
-    display: block;
-    font-weight: 900;
-    animation: moveInLeft 1s;
+    &--sub {
+        font-size: 2rem;
+        letter-spacing: 1.75rem;
+        display: block;
+        font-weight: 900;
+        animation: moveInLeft 1s;
+    }
 }
