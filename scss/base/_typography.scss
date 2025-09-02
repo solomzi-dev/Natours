@@ -20,6 +20,14 @@
     }
 }
 
+.secondary-heading {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    background-clip: text;
+    color: transparent;
+}
+
 .tertiary-heading {
     font-size: $font-default-size;
     font-weight: 700;
