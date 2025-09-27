@@ -98,39 +98,39 @@ body {
 }
 
 .u-margin-vt-sml {
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 !important;
 }
 
 .u-margin-vt-md {
-  margin: 2.5rem 0;
+  margin: 2.5rem 0 !important;
 }
 
 .u-margin-vt-lg {
-  margin: 4.5rem 0;
+  margin: 4.5rem 0 !important;
 }
 
 .u-margin-vt-xl {
-  margin: 7.5rem 0;
+  margin: 7.5rem 0 !important;
 }
 
 .u-padding-vt-sml {
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 !important;
 }
 
 .u-padding-vt-md {
-  padding: 2.5rem 0;
+  padding: 2.5rem 0 !important;
 }
 
 .u-padding-vt-lg {
-  padding: 4.5rem 0;
+  padding: 4.5rem 0 !important;
 }
 
 .u-padding-vt-xl {
-  padding: 7.5rem 0;
+  padding: 7.5rem 0 !important;
 }
 
 .u-text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .btn:link, .btn:visited {
