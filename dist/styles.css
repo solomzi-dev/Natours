@@ -113,6 +113,38 @@ body {
   margin: 7.5rem 0 !important;
 }
 
+.u-margin-top-sml {
+  margin-top: 1.5rem !important;
+}
+
+.u-margin-top-md {
+  margin-top: 2.5rem !important;
+}
+
+.u-margin-top-lg {
+  margin-top: 4.5rem !important;
+}
+
+.u-margin-top-xl {
+  margin-top: 7.5rem !important;
+}
+
+.u-margin-bottom-sml {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-bottom-md {
+  margin-bottom: 2.5rem !important;
+}
+
+.u-margin-bottom-lg {
+  margin-bottom: 4.5rem !important;
+}
+
+.u-margin-bottom-xl {
+  margin-bottom: 7.5rem !important;
+}
+
 .u-padding-vt-sml {
   padding: 1.5rem 0 !important;
 }
@@ -127,6 +159,38 @@ body {
 
 .u-padding-vt-xl {
   padding: 7.5rem 0 !important;
+}
+
+.u-padding-top-sml {
+  padding-top: 1.5rem !important;
+}
+
+.u-padding-top-md {
+  padding-top: 2.5rem !important;
+}
+
+.u-padding-top-lg {
+  padding-top: 4.5rem !important;
+}
+
+.u-padding-top-xl {
+  padding-top: 7.5rem !important;
+}
+
+.u-padding-bottom-sml {
+  padding-bottom: 1.5rem !important;
+}
+
+.u-padding-bottom-md {
+  padding-bottom: 2.5rem !important;
+}
+
+.u-padding-bottom-lg {
+  padding-bottom: 4.5rem !important;
+}
+
+.u-padding-bottom-xl {
+  padding-bottom: 7.5rem !important;
 }
 
 .u-text-center {
@@ -211,6 +275,23 @@ body {
   transform: scale(0.8);
 }
 
+.feature-box {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5rem 3rem;
+  transition: transform 0.3s;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+}
+.feature-box__icon {
+  font-size: 5rem;
+  background-image: linear-gradient(to right, #55c57a, #28b485);
+  background-clip: text;
+  color: transparent;
+}
+.feature-box:hover {
+  transform: scale(1.05);
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -274,10 +355,24 @@ body {
   text-transform: uppercase;
 }
 
-.about {
+.section-main {
   background-color: #f7f7f7;
+}
+
+.about {
   margin-top: -15vh;
-  padding: 15rem 0;
+  padding: 25rem 0;
+}
+
+.feature-section {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8)), url("../images/nat-4.jpg");
+  background-position: top;
+  background-size: cover;
+  transform: skewY(-7deg);
+}
+.feature-section > * {
+  transform: skewY(7deg);
 }
 
 /*# sourceMappingURL=styles.css.map */
