@@ -207,6 +207,7 @@ body {
   border: none;
   transition: all 0.2s;
   position: relative;
+  cursor: pointer;
 }
 .btn:hover {
   box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
