@@ -1,6 +1,7 @@
 @use "../abstracts/variables" as *;
 
 .btn {
+    &,
     &:link,
     &:visited {
         display: inline-block;
@@ -54,5 +55,24 @@
     &--animated {
         animation: moveInBottom .6s;
         animation-fill-mode: backwards;
+    }
+    
+}
+
+.btn--text {
+    padding: .2rem;
+    text-align: center;
+    color: $color-primary;
+    display: inline-block;
+    border-bottom: 1px solid $color-primary;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s;
+
+    &:hover {
+        background-color: $color-primary;
+        color: $color-white;
     }
 }

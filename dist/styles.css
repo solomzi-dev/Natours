@@ -197,7 +197,7 @@ body {
   text-align: center !important;
 }
 
-.btn:link, .btn:visited {
+.btn, .btn:link, .btn:visited {
   display: inline-block;
   padding: 1.5rem 4rem;
   text-transform: uppercase;
@@ -242,6 +242,23 @@ body {
 .btn--animated {
   animation: moveInBottom 0.6s;
   animation-fill-mode: backwards;
+}
+
+.btn--text {
+  padding: 0.2rem;
+  text-align: center;
+  color: #7ed56f;
+  display: inline-block;
+  border-bottom: 1px solid #7ed56f;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.btn--text:hover {
+  background-color: #7ed56f;
+  color: #fff;
 }
 
 .composition {
