@@ -292,7 +292,6 @@ body {
   width: 100%;
 }
 .card-side__back {
-  background-color: black;
   color: #fff;
   width: 100%;
   transform: rotateY(180deg);
