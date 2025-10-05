@@ -435,6 +435,20 @@ body {
   transform: scale(1.05);
 }
 
+.story {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 3rem 4rem;
+}
+.story__img-box {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  background-image: url(../images/nat-8.jpg);
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
